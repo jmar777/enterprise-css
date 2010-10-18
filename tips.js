@@ -136,4 +136,12 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'kentbrew',
+	message: 'Avoiding all those icky specificity questions through the use of inline <em>!important</em> styles',
+	example: [
+		'<div style="color:red!important">No, Seriously: This Is Important!</div>'
+	]
+});
+
 module.exports = tips;
