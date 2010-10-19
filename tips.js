@@ -154,4 +154,17 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'PHLAK',
+	message: 'Coding with IE8 in mind... and IE7... and IE6...',
+	example: [
+		'<head>',
+		'	<link rel="stylesheet" type="text/css" href="/css/style.css" />',
+		'	<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/ie-all.css" /><![endif]-->',
+		'	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css" /><![endif]-->',
+		'	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/css/ie6.css" /><![endif]-->',
+		'</head>'
+	]
+});
+
 module.exports = tips;
