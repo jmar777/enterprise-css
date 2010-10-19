@@ -136,4 +136,14 @@ tips.push({
 	]
 });
 
+tips.push({
+  author: 'madrobby',
+  message: 'Make sure your CSS <em>file names</em> do everything but end in .css.',
+  example: [
+    '/en/shared/core/2/css/css.ashx?sc=/en/us/site.config&amp;pt=cspMscomHomePage&amp;c=c',
+    'spMscomSiteBrand;cspSearchComponent;cspMscomFeaturePanel;cspMscomMasterNavigation;cs',
+    'pMscomNewsBand;cspVerticalRolloverTab;cspAdControl;cspMscomVerticalTab;cspSilverGate'
+  ]
+});
+
 module.exports = tips;
