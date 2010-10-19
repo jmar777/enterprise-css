@@ -87,29 +87,29 @@ tips.push({
 
 
 tips.push({
-    author: 'artsyca',
-    message: 'Use <em>meticulously</em> nested style rules including at least two ids per line',
-    example: [
-        '#concept #permanent .recommend {...}',
-        '#concept #highlightRec.recommend {left:0px;}',
-        '#concept #alpha.recommend {left:-3px;}',
-        '#concept #beta.recommend {left:-3px;}',
-        '#concept #gamma.recommend {left:-3px;}',
-        '#concept form#conceptProducts {..}',
-        '#concept #compare {...}',
-        '#concept #compare .object {...}',
-        '#concept #compare .object.highlight .recommend {...}',
-        '#concept #compare .object h5 {...}',
-        '#concept #compare .object .intro {...}',
-        '#concept #compare .object .intro .productPhoto {...}',
-        '#concept #compare .object .intro h4 {...}',
-        '...',
-        '#concept #compare .object .speed {...}',
-        '#concept #compare .object .size {...}',
-        '#concept #compare .object .features {...}',
-        '#concept #compare .object .features li {...}',
-        '#concept #compare .object div.order {...}'
-    ]
+	author: 'artsyca',
+	message: 'Use <em>meticulously</em> nested style rules including at least two ids per line',
+	example: [
+		'#concept #permanent .recommend {...}',
+		'#concept #highlightRec.recommend {left:0px;}',
+		'#concept #alpha.recommend {left:-3px;}',
+		'#concept #beta.recommend {left:-3px;}',
+		'#concept #gamma.recommend {left:-3px;}',
+		'#concept form#conceptProducts {..}',
+		'#concept #compare {...}',
+		'#concept #compare .object {...}',
+		'#concept #compare .object.highlight .recommend {...}',
+		'#concept #compare .object h5 {...}',
+		'#concept #compare .object .intro {...}',
+		'#concept #compare .object .intro .productPhoto {...}',
+		'#concept #compare .object .intro h4 {...}',
+		'...',
+		'#concept #compare .object .speed {...}',
+		'#concept #compare .object .size {...}',
+		'#concept #compare .object .features {...}',
+		'#concept #compare .object .features li {...}',
+		'#concept #compare .object div.order {...}'
+	]
 });
 
 tips.push({
