@@ -222,6 +222,8 @@ tips.push({
 	author: 'geirarne',
 	message: 'Desktop publishing-like control over presentation by inserting blank gifs ... with JS',
 	example: [
+		'var blank = "blank.gif";'
+		' ... '
 		'<td>'
 		'<script language="javascript">'
 		'document.write(\'<img src=\' + blank + \' width=1 height=\'+boxheight+\'>\');'
