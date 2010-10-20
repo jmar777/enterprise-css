@@ -1,11 +1,14 @@
-#prefix.shadowed.upper
-  a.special(href="/")="Enterprise CSS"
-  =" Is:"
+header
+  #prefix.shadowed.split.upper
+    a.special(href="/")="Enterprise CSS"
+    =" Is:"
+  #refresh.split
+    a(href="/")="Refresh"
 #message.shadowed.upper!=tip.message
 - if (tip.example)
   pre#example!=tip.example
 footer
-  p#author="Submitted by: "
+  p#author.split="Submitted by: "
     a.special(href="http://twitter.com/#/" + tip.author)=tip.author 
-  p#permalink
+  p#permalink.split
     a(href="/" + index)="Permalink"
