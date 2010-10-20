@@ -13,7 +13,7 @@ p=/[\\\"\x00-\x1f\x7f-\x9f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u20
 "]").replace(/(?:^|:|,)(?:\s*\[)+/g,""))){d=eval("("+b+")");return typeof f==="function"?c({"":d},""):d}throw new SyntaxError("JSON.parse");}})();
 
 var socket = new io.Socket(null, {
-	port: 3000,
+	port: 3001,
 	transports: ['websocket', 'htmlfile', 'xhr-multipart', 'xhr-polling']
 });
 socket.connect();
