@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata&subset=latin);
 
+:focus {
+	outline: none;
+}
+
 body, p {
 	margin: 0;
 }
