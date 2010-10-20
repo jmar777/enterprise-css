@@ -41,7 +41,7 @@ socket.on('message', function (data) {
 		$('#example').show();
 	}
 
-	$('#example').html(response.tip.example);
+	$('#example').html($.trim(response.tip.example));
 	$('#author a').attr('href', 'http://twitter.com/#/' + response.tip.author).text(response.tip.author);
 	$('#permalink a').attr('href', '/' + response.index);
 
