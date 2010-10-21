@@ -1,17 +1,6 @@
 var tips = [];
 
 tips.push({
-	author: 'justinfrench',
-	message: 'Fighting specificity with... more specificity!',
-	example: [
-		'p { color:red; }',
-		'body.special p { color:blue; }',
-		'#main p { color:green; }',
-		'body.special #main p { color:red; }'
-	]
-});
-
-tips.push({
 	author: 'bentruyman',
 	message: 'Use Microsoft_Case in Your IDs and Classes So That Others <em>Familiar</em> With the English Language (or Books) Can Easily Read Your Selectors',
 	example: [
@@ -240,6 +229,17 @@ tips.push({
 		'document.write(\'<img src=\' + blank + \' width=1 height=\'+boxheight+\'>\');',
 		'</script>',
 		'</td> '
+	]
+});
+
+tips.push({
+	author: 'justinfrench',
+	message: 'Fighting <em>specificity</em> with... more <em>specificity</em>!',
+	example: [
+		'p { color:red; }',
+		'body.special p { color:blue; }',
+		'#main p { color:green; }',
+		'body.special #main p { color:red; }'
 	]
 });
 
