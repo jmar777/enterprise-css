@@ -162,10 +162,17 @@ footer .split {
 	text-align: center;
 }
 
-#fork {
-	right: 0;
+#joke, #fork {
 	position: absolute;
 	top: 0;
+}
+
+#joke {
+	left: 0;
+}
+
+#fork {
+	right: 0;
 	-webkit-transition: opacity 0.25s ease-in-out;
 }
 
