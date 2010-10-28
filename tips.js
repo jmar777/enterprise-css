@@ -232,15 +232,4 @@ tips.push({
 	]
 });
 
-tips.push({
-	author: 'justinfrench',
-	message: 'Fighting <em>specificity</em> with... more <em>specificity</em>!',
-	example: [
-		'p { color:red; }',
-		'body.special p { color:blue; }',
-		'#main p { color:green; }',
-		'body.special #main p { color:red; }'
-	]
-});
-
 module.exports = tips;
