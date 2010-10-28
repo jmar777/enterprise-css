@@ -14,6 +14,7 @@ at gathering all of that knowledge and to share it with the world.
  * [Express 1.0.0rc4](http://expressjs.com/) (`npm install express`)
  * [Highlight 0.1.0](http://github.com/andris9/highlight/) (`npm install highlight`)
  * [Jade 0.5.3](http://jade-lang.com/) (`npm install jade`)
+ * [Socket.IO 0.5.3](http://socket.io/) (`npm install socket.io`)
 
 ## Adding Your Own Tips
 
