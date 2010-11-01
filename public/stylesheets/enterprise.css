@@ -16,6 +16,7 @@ html {
 }
 
 body {
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8), transparent);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.8)), color-stop(1, transparent));
 	background-repeat: repeat-x;
 	margin-bottom: 60px;
@@ -89,6 +90,7 @@ footer .split {
 }
 
 #refresh a {
+/*	background-color: #eee;*/
 	background-image: -moz-linear-gradient(top, #eee, #aaa);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(1, #aaa));
 	-moz-border-radius: 10px;
@@ -155,6 +157,7 @@ footer .split {
 	color: #222;
 	font-size: 46px;
 	text-decoration: none;
+	-moz-transition: color 0.25s ease-in-out;
 	-webkit-transition: color 0.25s ease-in-out;
 }
 
@@ -173,6 +176,7 @@ footer .split {
 
 #fork {
 	right: 0;
+	-moz-transition: opacity 0.25s ease-in-out;
 	-webkit-transition: opacity 0.25s ease-in-out;
 }
 
