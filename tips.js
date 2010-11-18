@@ -232,4 +232,26 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'iblamefish',
+	message: 'Never leaving anything to chance',
+	example: [
+		'html > body > div#over_explicit > h1#main_heading_with_border',
+		'{',
+		'  border-top-width: 1px',
+		'  border-right-width: 1px',
+		'  border-bottom-width: 1px',
+		'  border-left-width: 1px',
+		'  border-top-color: #000000',
+		'  border-right-color: #000000',
+		'  border-bottom-color: #000000',
+		'  border-left-color: #000000',
+		'  border-top-style: solid',
+		'  border-right-style: solid',
+		'  border-bottom-style: solid',
+		'  border-left-style: solid',
+		'}'
+	]
+});
+
 module.exports = tips;
