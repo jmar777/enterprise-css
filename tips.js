@@ -254,4 +254,15 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'keeganwatkins',
+	message: 'Using <em>block-level</em> properties on <em>inline</em> elements',
+	example: [
+		'a {',
+		'  width: 200px',
+		'  height: 100px',
+		'}'
+	]
+});
+
 module.exports = tips;
