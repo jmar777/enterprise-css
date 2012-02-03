@@ -265,4 +265,14 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'bsmirnov',
+	message: 'Making sure all <em>Global Classes</em> a truly global by prepending them with <em>gbl</em> prefix',
+	example: [
+		'.gblFloatLeft {',
+		'  float:left;',
+		'}'
+	]
+});
+
 module.exports = tips;
