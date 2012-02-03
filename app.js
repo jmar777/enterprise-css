@@ -30,7 +30,7 @@ tips.forEach(function (tip) {
 
 // Utilities
 function showTip (req, res, index) {
-  res.render('index.jade', {
+  res.render('index', {
     locals: {
       tip: tips[index - 1],
       color: colors[Math.floor(Math.random() * colors.length)],
