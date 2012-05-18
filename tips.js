@@ -275,4 +275,14 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'jmar777',
+	message: 'Making sure your table-based layout <em>really</em> is 1200px wide',
+	example: [
+		'table[width=1200] {',
+		'  width: 1200px;',
+		'}'
+	]
+});
+
 module.exports = tips;
